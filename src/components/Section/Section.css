@@ -1,0 +1,118 @@
+:root {
+    --bg-color-1: #878EBA;
+    --bg-color-2: #F7F8FF;
+    --bg-color-3: #F1F1E6;
+    --bg-color-4: #FFF7D6;
+    --bg-color-5: #D2A517;
+    --bg-color-6: #173E82;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --white: #fff;
+    --zegoda-blue: #204182;
+}
+
+
+/* Top Spacing */
+.section .spacing-none {
+    height: 0;
+}
+
+.section .spacing-xs, 
+.section .spacing-xsmall {
+    height: 1rem;
+}
+
+.section .spacing-sm, 
+.section .spacing-small {
+    height: 2rem;
+}
+
+.section .spacing-md, 
+.section .spacing-medium {
+    height: 3rem;
+}
+
+.section .spacing-lg, 
+.section .spacing-large {
+    height: 4rem;
+}
+
+.section .spacing-xl, 
+.section .spacing-xlarge {
+    height: 5.5rem;
+}
+
+
+/* Background Color */
+.section.bg-1 {
+    background-color: var(--bg-color-1);
+}
+
+.section.bg-2 {
+    background-color: var(--bg-color-2);
+}
+
+.section.bg-3 {
+    background-color: var(--bg-color-3);
+}
+
+.section.bg-4 {
+    background-color: var(--bg-color-4);
+}
+
+.section.bg-light {
+    background-color: var(--light);
+}
+
+.section.bg-dark {
+    background-color: var(--dark);
+}
+
+.section.bg-default {
+    background-color: var(--white);
+}
+
+.section.bg-zegoda {
+    background-color: var(--zegoda-blue);
+    color: var(--white);
+}
+
+
+/* Top Divider */
+.section .top-1 {
+    background-image: linear-gradient(var(--bg-color-1), rgba(255, 0, 0, 0));
+}
+
+.section .top-2 {
+    background-image: linear-gradient(var(--bg-color-2), rgba(255, 0, 0, 0));
+}
+
+.section .top-3 {
+    background-image: linear-gradient(var(--bg-color-3), rgba(255, 0, 0, 0));
+}
+
+.section .top-4 {
+    background-image: linear-gradient(var(--bg-color-4), rgba(255, 0, 0, 0));
+}
+
+.section .top-light {
+    background-image: linear-gradient(var(--bg-color-light), rgba(255, 0, 0, 0));
+}
+
+.section .top-dark {
+    background-image: linear-gradient(var(--bg-color-dark), rgba(255, 0, 0, 0));
+}
+
+.section .top-default {
+    background-image: linear-gradient(var(--bg-color-default), rgba(255, 0, 0, 0));
+}
+
+.section .top-zegoda {
+    background-image: linear-gradient(var(--bg-color-zegoda), rgba(255, 0, 0, 0));
+}
+
+
+/*  */
+.section .content {
+    margin-top: 64px;
+}

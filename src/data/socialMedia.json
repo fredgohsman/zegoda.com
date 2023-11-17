@@ -1,0 +1,38 @@
+[
+    {
+        "enabled": false,
+        "icon": "facebook-official",
+        "id": "facebook",
+        "link": ""
+    },
+    {
+        "enabled": false,
+        "icon": "instagram",
+        "id": "instagram",
+        "link": ""
+    },
+    {
+        "enabled": false,
+        "icon": "snapchat",
+        "id": "snapchat",
+        "link": ""
+    },
+    {
+        "enabled": false,
+        "icon": "pinterest-p",
+        "id": "pinterest",
+        "link": ""
+    },
+    {
+        "enabled": false,
+        "icon": "x-twitter",
+        "id": "twitter",
+        "link": "https://www.twitter.com/zegoda"
+    },
+    {
+        "enabled": true,
+        "icon": "linkedin",
+        "id": "linkedin",
+        "link": "https://www.linkedin.com/company/zegoda"
+    }
+]

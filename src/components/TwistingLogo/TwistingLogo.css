@@ -1,0 +1,30 @@
+.TwistingLogoContainer {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: red;
+}
+
+.TwistingLogo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .TwistingLogo {
+        animation: TwistingLogo-spin infinite 10s alternate linear;
+    }
+}
+
+@keyframes TwistingLogo-spin {
+    from {
+        transform: rotate(-30deg);
+    }
+    to {
+        transform: rotate(30deg);
+    }
+}

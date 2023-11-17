@@ -1,0 +1,23 @@
+[
+    {
+        "enabled": true,
+        "name": "Software Development & Integration",
+        "title": "Software Development & Integration",
+        "description": "Harnessing AI technology, we seamlessly integrate advanced analytics and machine learning into existing software applications, elevating their efficiency and intelligence.",
+        "image": "sdi-scene.png"
+    },
+    {
+        "enabled": true,
+        "name": "Data Science & Analytics",
+        "title": "Data Science & Analytics",
+        "description": "Through cutting-edge techniques in machine learning and predictive analysis, we empower organizations to navigate complex markets with data-driven confidence.",
+        "image": "dsa-scene.png"
+    },
+    {
+        "enabled": true,
+        "name": "Training & Enablement",
+        "title": "Training & Enablement",
+        "description": "Our training and enablement programs are designed to empower your team with the skills and knowledge needed for data and AI to excel in today’s fast-paced business environment.",
+        "image": "te-scene.png"
+    }
+]

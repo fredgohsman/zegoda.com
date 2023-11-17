@@ -1,0 +1,37 @@
+[
+    {
+        "enabled": true,
+        "title": "What we do",
+        "description": "What we do",
+        "link": "#work",
+        "icon": "clipboard",
+        "iconStyle": "solid"
+    },
+    {
+        "enabled": false,
+        "title": "Why we do it",
+        "description": "Why we do it",
+        "link": "#about",
+        "icon": "heart"
+    },
+    {
+        "enabled": true,
+        "title": "Who we are",
+        "description": "Who we are",
+        "link": "#team",
+        "icon": "users"
+    },
+    {
+        "enabled": false,
+        "title": "PRICING",
+        "link": "#pricing",
+        "icon": "usd"
+    },
+    {
+        "enabled": true,
+        "title": "Contact us",
+        "description": "How to get in touch with us",
+        "link": "#contact",
+        "icon": "envelope"
+    }
+]

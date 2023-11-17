@@ -1,0 +1,17 @@
+[
+    {
+        "title": "",
+        "label": "Tampa, US",
+        "icon": "map-marker"
+    },
+    {
+        "title": "Phone",
+        "label": "+1 (813) 555-1212",
+        "icon": "phone"
+    },
+    {
+        "title": "Email",
+        "label": "sales@zegoda.com",
+        "icon": "envelope"
+    }
+]

@@ -1,0 +1,9 @@
+.service-areas-section .service-area .title {
+    font-size: 18px;
+    padding: 1rem;
+}
+
+.service-areas-section .service-area .description {
+    text-align: left;
+    padding: 0.5rem;
+}

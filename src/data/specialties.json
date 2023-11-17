@@ -1,0 +1,26 @@
+[
+    {
+        "enabled": true,
+        "title": "Responsive",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "icon": "desktop"
+    },
+    {
+        "enabled": true,
+        "title": "Passion",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "icon": "heart"
+    },
+    {
+        "enabled": true,
+        "title": "Design",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "icon": "diamond"
+    },
+    {
+        "enabled": true,
+        "title": "Support",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "icon": "cog"
+    }
+]

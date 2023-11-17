@@ -1,0 +1,7 @@
+.Sidebar .open {
+    display: block;
+}
+
+.Sidebar .close {
+    display: none;
+}

@@ -1,0 +1,43 @@
+:root {
+    --bg-color-1: #007bff;
+    --bg-color-2: #17a2b8;
+    --bg-color-3: #28a745;
+    --bg-color-4: #ffc107;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --white: #fff;
+    --zegoda-blue: #204182;
+}
+
+.splash {
+    background-position: center;
+    background-size: cover;
+    background-image: url('./fingers.jpg');
+    background-blend-mode: darken;
+    min-height: 100%;
+}
+
+.splash .content {
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+.splash .title {
+    font-size: 3.5vw;
+    background-color: var(--zegoda-blue);
+    opacity: 0.8;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.splash .sub-title {
+    font-size: 1.75vw;
+    background-color: var(--zegoda-blue);
+    opacity: 0.8;
+    padding: 1rem;
+}
+
+.splash .links {
+    padding: 24px 48px;
+}
