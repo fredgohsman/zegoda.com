@@ -21,7 +21,7 @@ export function TeamMember({ member, onClick }: TeamMemberProps) {
 
     return (
         <div className="w3-quarter">
-            <div className="w3-card">
+            <div className="w3-card bg-3">
                 <div className="photo-section">{photo}</div>
                 <div className="w3-container">
                     <h3 className="w3-center">{member.name}</h3>

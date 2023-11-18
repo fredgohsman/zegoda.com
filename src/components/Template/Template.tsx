@@ -45,14 +45,15 @@ export function Template() {
             <Sidebar close={closeMenu} isOpen={isMenuOpen} menuItems={menus} />
 
             {/* <!-- Header with full-height image --> */}
-            <Splash links={social} />
+            <Splash buttonLink='work' socialMediaLinks={social} />
 
             {/* <!-- What we do Section --> */}
             <Section
                 id="work"
                 title="WHAT WE DO"
                 description="What we've done for people"
-                bgColor="1"
+                bgColor="2"
+                spacingBottom='large'
             >
                 <ServiceAreasSection services={services} />
             </Section>
@@ -73,8 +74,8 @@ export function Template() {
                 id="team"
                 title="WHO WE ARE"
                 description="The ones who runs this company"
-                topBgColor="1"
-                bgColor="3"
+                topBgColor="2"
+                bgColor="4"
             >
                 <TeamSection members={team} />
             </Section>
@@ -119,8 +120,8 @@ export function Template() {
                 id="contact"
                 title="CONTACT US"
                 description="Ready to take the next step towards transforming your data and AI strategy?<br/>Reach out to us for a personalized consultation where your business vision meets our strategic expertise."
-                topBgColor="3"
-                bgColor="light"
+                topBgColor="4"
+                bgColor="2"
                 spacingBottom='large'
             >
                 <ContactSection data={contactItems} />

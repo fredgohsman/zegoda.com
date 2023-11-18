@@ -25,7 +25,7 @@ type Size =
     | 'large'
     | 'xlarge'
 
-type Color = '1' | '2' | '3' | '4' | 'light' | 'dark' | 'default' | 'zegoda'
+type Color = '1' | '2' | '3' | '4' | '5' | '6' | 'light' | 'dark' | 'default' | 'zegoda'
 
 export const Section = ({
     children,
