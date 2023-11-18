@@ -14,7 +14,7 @@ import contactItems from '../../data/contact.json'
 import allMenuItems from '../../data/menu.json'
 import allServices from '../../data/services.json'
 import allSocialMediaLinks from '../../data/socialMedia.json'
-import allSpecialtyItems from '../../data/specialties.json'
+//import allSpecialtyItems from '../../data/specialties.json'
 import allTeamMembers from '../../data/team.json'
 
 import './Template.css'
@@ -33,7 +33,7 @@ export function Template() {
     const menus = allMenuItems.filter((item) => item.enabled)
     const services = allServices.filter((item) => item.enabled)
     const social = allSocialMediaLinks.filter((item) => item.enabled)
-    const specialties = allSpecialtyItems.filter((item) => item.enabled)
+    //const specialties = allSpecialtyItems.filter((item) => item.enabled)
     const team = allTeamMembers.filter((item) => item.enabled)
 
     return (
