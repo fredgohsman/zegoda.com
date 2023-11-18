@@ -13,7 +13,7 @@ type SocialMediaLinkProps = {
 
 export function SocialMediaLink({ item }: SocialMediaLinkProps) {
     return (
-        <a href={item.link} target="_blank" rel="noopener">        
+        <a href={item.link} target="_blank" rel="noreferrer">        
             <i className={`fa-brands fa-${item.icon} w3-hover-opacity`}></i>{' '}
         </a>
     )
