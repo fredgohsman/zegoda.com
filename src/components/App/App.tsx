@@ -1,5 +1,5 @@
 import { Template } from '../Template/Template'
-import { TwistingLogo } from '../TwistingLogo/TwistingLogo'
+//import { TwistingLogo } from '../TwistingLogo/TwistingLogo'
 import './App.css'
 
 export function App() {

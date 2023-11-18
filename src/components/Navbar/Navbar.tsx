@@ -30,12 +30,12 @@ export function Navbar({ menuItems, menuToggleClicked }: NavbarProps) {
                 </div>
                 {/* <!-- Hide right-floated links on small screens and replace them with a menu icon --> */}
 
-                <a
+                <button
                     className="w3-bar-item w3-button w3-right w3-hide-large"
                     onClick={menuToggleClicked}
                 >
                     <i className="fa fa-bars"></i>
-                </a>
+                </button>
             </div>
         </div>
     )
