@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { AboutSection } from '../AboutSection/AboutSection'
+//import { AboutSection } from '../AboutSection/AboutSection'
 import { ContactSection } from '../ContactSection/ContactSection'
 import { Footer } from '../Footer/Footer'
 import { Navbar } from '../Navbar/Navbar'
