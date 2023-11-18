@@ -17,9 +17,9 @@ export function Sidebar({ close, isOpen, menuItems }: SidebarProps) {
                 className={`w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large ${className}`}
                 id="mySidebar"
             >
-                <a onClick={close} className="w3-bar-item w3-button w3-large w3-padding-16">
+                <button onClick={close} className="w3-bar-item w3-button w3-large w3-padding-16">
                     Close ×
-                </a>
+                </button>
                 {menuItems.map((menuItem) => (
                     <SidebarMenuItem onClose={close} menuItem={menuItem} key={menuItem.link} />
                 ))}
