@@ -1,4 +1,4 @@
-import { ContactForm } from './ContactForm'
+//import { ContactForm } from './ContactForm'
 import { ContactItem } from './ContactItem'
 import './ContactSection.css'
 
