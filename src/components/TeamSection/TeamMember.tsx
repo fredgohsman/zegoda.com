@@ -25,14 +25,14 @@ export function TeamMember({ member, onClick }: TeamMemberProps) {
                 <div className="photo-section">{photo}</div>
                 <div className="w3-container">
                     <h3 className="w3-center">{member.name}</h3>
-                    <p className="w3-opacity w3-center">{member.title}</p>
-                    <p dangerouslySetInnerHTML={{ __html: member.description }}></p>
-                    <p>
+                    <p className="w3-opacity w3-center title">{member.title}</p>
+                    <p className="bio" dangerouslySetInnerHTML={{ __html: member.description }}></p>
+                    <p className="buttons">
                         <button
-                            className="w3-button w3-light-grey w3-block"
+                            className="w3-button"
                             onClick={() => onClick(member)}
                         >
-                            <i className="fa fa-envelope"></i> Contact
+                            <i className="fa fa-book"></i> Read more
                         </button>
                     </p>
                 </div>
