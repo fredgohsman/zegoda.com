@@ -1,3 +1,8 @@
+.service-areas-section .service-area {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .service-areas-section .service-area .title {
     font-size: 18px;
     padding: 1rem;

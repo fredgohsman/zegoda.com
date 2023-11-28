@@ -24,7 +24,7 @@ export function TeamSection({ members: data }: TeamSectionProps) {
             {highlight ? (
                 <TeamMemberHighlight member={highlight} onClick={handleBackClicked} />
             ) : (
-                <div className="team-members">
+                <div className="w3-row-padding team-members">
                     {data.map((member) => (
                         <TeamMember
                             member={member}
